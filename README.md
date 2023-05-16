@@ -10,6 +10,10 @@ https://www.thepythoncode.com/article/convert-text-to-speech-in-python
 
 # libraries
 
+## GTTS
+
+
+
 
 # virtual environments
 
