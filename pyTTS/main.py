@@ -15,6 +15,13 @@ print(rate)
 voices = engine.getProperty("voices")
 print(voices)
 
+for voice in voices:
+    print(voice, voice.id)
+    engine.setProperty("voice", voice.id)
+    engine.say(text)
+
+
+
 engine.save_to_file(text, "python.mp3")
 engine.runAndWait()
 
